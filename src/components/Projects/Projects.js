@@ -10,6 +10,7 @@ import landingPage from "../../Assets/Projects/landingPage.png";
 import jakartaEmergency from "../../Assets/Projects/jakartaEmergency.png";
 import variantc from "../../Assets/Projects/variantc.png";
 import covidPredictor from "../../Assets/Projects/covidPredictor.png";
+import webAnniversary from "../../Assets/Projects/anniversary-web.jpg";
 
 function Projects() {
   return (
@@ -106,6 +107,17 @@ function Projects() {
               title="Covid Predictor - Web Development"
               description="Covid Predictor is a website that can predict positive or negative users of Covid-19 and its variants."
               ghLink="https://github.com/mafalaz/variant-c"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={webAnniversary}
+              isBlog={false}
+              title="Web Anniversary - Web Development"
+              description="This website is a website for celebrating birthdays as a couple or it can also function for wedding invitations and engagements. With several features including using a pin as a form of privacy."
+              
+              demoLink="https://widyalazuardi.netlify.app/"
             />
           </Col>
         </Row>
