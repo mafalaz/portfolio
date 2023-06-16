@@ -11,6 +11,7 @@ import jakartaEmergency from "../../Assets/Projects/jakartaEmergency.png";
 import variantc from "../../Assets/Projects/variantc.png";
 import covidPredictor from "../../Assets/Projects/covidPredictor.png";
 import webAnniversary from "../../Assets/Projects/anniversary-web.jpg";
+import restIndo from "../../Assets/Projects/restindo.png";
 
 function Projects() {
   return (
@@ -118,6 +119,17 @@ function Projects() {
               description="This website is a website for celebrating birthdays as a couple or it can also function for wedding invitations and engagements. With several features including using a pin as a form of privacy."
               
               demoLink="https://widyalazuardi.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={restIndo}
+              isBlog={false}
+              title="Katalog Restoran - Web Development"
+              description="This website is a website for celebrating birthdays as a couple or it can also function for wedding invitations and engagements. With several features including using a pin as a form of privacy."
+              ghLink="https://github.com/mafalaz/katalog-restoran"
+              demoLink="https://restindo.netlify.app/"
             />
           </Col>
         </Row>
