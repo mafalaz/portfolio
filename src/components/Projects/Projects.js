@@ -127,7 +127,8 @@ function Projects() {
               imgPath={restIndo}
               isBlog={false}
               title="Katalog Restoran - Web Development"
-              description="This website is a website for celebrating birthdays as a couple or it can also function for wedding invitations and engagements. With several features including using a pin as a form of privacy."
+              description="Restindo is a website that contains a restaurant catalog, where users can choose the desired restaurant destination along with reviews from other users. There is a Progressive Web App (PWA) feature so that the website has
+              native properties such as installable, offline capability, and others."
               ghLink="https://github.com/mafalaz/katalog-restoran"
               demoLink="https://restindo.netlify.app/"
             />
