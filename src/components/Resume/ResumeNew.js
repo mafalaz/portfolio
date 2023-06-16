@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/mafalaz/portofolio-ui-ux-designer/master/CV - Maulana Fajar Lazuardi.pdf";
+  "https://raw.githubusercontent.com/mafalaz/portofolio-ui-ux-designer/master/CV Magang - Maulana Fajar Lazuardi.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
